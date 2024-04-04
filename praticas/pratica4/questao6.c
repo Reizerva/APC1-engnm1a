@@ -11,11 +11,11 @@ int main() {
   deu_certo = scanf("%f", &b);
   printf("Digite o valor de c: ");
   deu_certo = scanf("%f", &c);
-  float delta = (b * b) - (4 * a * c);
+  double delta = (b * b) - (4 * a * c);
   double raiz1 = (-b + sqrt(delta)) / (2 * a);
   double raiz2 = (-b - sqrt(delta)) / (2 * a);
-  printf("A raiz da equação se delta positivo é: %f\n", raiz1);
-  printf("A raiz da equação se delta negativo é: %f\n", raiz2);
+  printf("A raiz da equação positiva é: %.2f\n", raiz1);
+  printf("A raiz da equação negativa é: %.2f\n", raiz2);
   
   return 0;
 }

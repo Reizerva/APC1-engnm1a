@@ -12,6 +12,7 @@ int main() {
   deu_certo = scanf("%f", &angulo);
   if( angulo <= 45) {
     float altura = distancia * sin(angulo * (3.1416/180));
+    printf("A altura alcançada pelo avião é: %.2f\n", altura);
   }
   else {
     printf("O ângulo de inclinação do avião deve ser menor ou igual a 45°\n");
