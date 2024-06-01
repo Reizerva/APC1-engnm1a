@@ -21,12 +21,12 @@ int main() {
           printf("\x1b[41m  \x1b[0m");
          } else {
           //tabuleiro[i][j] = 0;
-          printf("\x1b[103m  \x1b[0m");
+          printf("\x1b[101m  \x1b[0m");
          }
        } else {
          if ((int)tabuleiro[i][j] % 2 == 0) {
            //tabuleiro[i][j] = 0;
-           printf("\x1b[103m  \x1b[0m");
+           printf("\x1b[101m  \x1b[0m");
          } else {
            //tabuleiro[i][j] = 1;
            printf("\x1b[41m  \x1b[0m");
