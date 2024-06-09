@@ -19,7 +19,7 @@ int main() {
       }
     }
   }
-  int deu_certo = system("clear");
+  int deu_certo = system("clear");i
   for (i = 0; i < 8; i++) {
     for (j = 0; j < 8; j++) {
       printf("%c ", tabuleiro[i][j]);
